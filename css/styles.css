@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background:url("../image/bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #ddd;
+    /* border-radius: 30px; */
+    height: 100vh;
+    /* margin: 5%; */
+    
+}
+.left-div{
+    width: 55%;
+    
+    border-radius: 30px 0 0 30px;
+    
+}
+.right-div{
+    margin: auto;
+    color: rgb(105, 105, 105);
+      
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.remember span{
+    color: #7F265B;
+}
+.btn{
+    background-color: #7F265B;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.logo{
+    background-image: url("../image/logo.svg");
+    background-repeat: no-repeat;
+    height: 77px;
+    width: 70px;
+    
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+.google-icon{
+    background: url("../image/google.svg");
+    height: 25px;
+    width: 25px;
+    
+}
+.lgn{
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+label{
+    font-weight: 400;
+}
+input{
+    padding:10px 15px;
+    border-radius: 5px;
+    border:1px solid #ddd; 
+    outline: none;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    background-color: #7F265B;
+}
+.email,.pwd{
+    display: flex;
+    flex-direction: column;
+}
+
+.pwd{
+    margin-top: 15px;
+}
+.footer{
+    margin-top: 200px;
+}
+
+.footer .create{
+    color: #7F265B;
+}
